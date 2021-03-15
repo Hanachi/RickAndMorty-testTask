@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", "helvetica neue", sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 10px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#users {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  text-decoration: none;
+  cursor: pointer;
+  width: 347px;
+  height: 347px;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formControl {
+  width: 10%;
+  margin: 20px;
+  padding-right: 20px !important;
+}
+.paginationPaper {
+  box-shadow: none;
+}
+.filterItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.cardPopover {
+  height: 50%;
+}
+img {
+  width: 50%;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+span {
+  text-align: center;
+  margin-left: 20px;
+}
